@@ -7,11 +7,11 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  return create_an_array << "Dante"
+  puts create_an_array << "Dante"
 end
 
 def add_element_to_start_of_array(array, element)
-  return create_an_array.unshift "Pablo" 
+  puts create_an_array.unshift "Pablo" 
 end
 
 def remove_element_from_end_of_array(array)
